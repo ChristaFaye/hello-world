@@ -1,0 +1,88 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Nothing+You+Could+Do&display=swap');
+
+header {
+  display: grid;
+  min-height: 40vh;
+  background-color: lightblue;
+  background-image: url('https://images.unsplash.com/photo-1533106410889-5177bdb3bb56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main {
+  padding: 1em;
+}
+
+.title {
+  font-family: "Amatic SC", helvetica, sans;
+  font-size: 9em;
+  color: #922B21;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: .03em .03em .1em #E67E22;
+  letter-spacing: .08em;
+
+}
+
+body {
+  font-family: montserrat, sarif;
+  background-color: #FAFAD2;
+  color: #A0522D;
+  text-align: justify;
+}
+
+p {
+}
+
+h1 {
+  letter-spacing: .2em;
+  color: 	#8B4513;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-shadow: .05em .05em .3em  #A52A2A;
+  text-align: center;
+}
+
+.bucket {
+  color: 	#aa7004;
+}
+
+.quote {
+  color: 	#800000;
+  font-family: 'nothing you could do', sarif;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 2;
+}
+
+h2 {
+  color: #2F4F4F;
+  text-background: #F5F5DC;
+  text-shadow: .03em .03em  #A52A2A;
+}
+
+h3 {
+  margin-left: 1em;
+  text-shadow: .02em .02em  #A52A2A;
+}
+
+h4 {
+  margin-left: 2em;
+  color: #778899;
+  font-style: italic;
+}
+
+ul {
+  margin-left: 2em;
+  text-indent: .5em;
+}
+
+footer{
+  color: gray;
+  font-size: .75em;
+  text-align: right;
+}
