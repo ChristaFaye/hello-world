@@ -31,14 +31,14 @@ main {
 
 body {
   font-family: montserrat, sarif;
-  background-color: #FAFAD2;
+  background-color: #eec290;
   color: #A0522D;
   text-align: justify;
 }
 
 .content {
     padding: 2em;
-    background-color: #f5d2e4a2;
+    background-color: #f7f0b2;
     overflow: auto;
 }
 
@@ -91,4 +91,6 @@ footer{
   color: gray;
   font-size: .75em;
   text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
