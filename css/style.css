@@ -13,7 +13,9 @@ header {
 }
 
 main {
-  padding: 1em;
+  padding: 0 10em 0 10em;
+  max-width: 500em;
+  object-position: center;
 }
 
 .title {
@@ -34,6 +36,12 @@ body {
   text-align: justify;
 }
 
+.content {
+    padding: 2em;
+    background-color:rgb(255, 235, 209);
+    overflow: auto;
+}
+
 
 h1 {
   letter-spacing: .2em;
@@ -46,6 +54,7 @@ h1 {
 
 .bucket {
   color: 	#aa7004;
+  font-size: 2.5em;
 }
 
 .quote {
@@ -81,5 +90,5 @@ ul {
 footer{
   color: gray;
   font-size: .75em;
-  text-align: right;
+  text-align: center;
 }
